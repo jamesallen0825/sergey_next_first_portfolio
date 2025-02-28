@@ -51,7 +51,7 @@ export const Navbar = ({ hide }: NavbarProps) => {
         >
           <img src={logo} alt="Logo" className="w-9 h-9 object-contain" />
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
-            Shubham&nbsp;<span className="sm:block hidden">| Developer</span>
+            Sergey.K&nbsp;<span className="sm:block hidden">| Developer</span>
           </p>
         </Link>
 
@@ -67,8 +67,8 @@ export const Navbar = ({ hide }: NavbarProps) => {
               onClick={() => !link.link && setActive(link.title)}
             >
               {link.link ? (
-                <a href={link.link} target="_blank" rel="noreferrer noopener">
-                  {link.title}
+                <a target="_blank" rel="noreferrer noopener">
+                  {}
                 </a>
               ) : (
                 <a href={`#${link.id}`}>{link.title}</a>
@@ -107,13 +107,7 @@ export const Navbar = ({ hide }: NavbarProps) => {
                   }}
                 >
                   {link.link ? (
-                    <a
-                      href={link.link}
-                      target="_blank"
-                      rel="noreferrer noopener"
-                    >
-                      {link.title}
-                    </a>
+                    <a target="_blank" rel="noreferrer noopener"></a>
                   ) : (
                     <a href={`#${link.id}`}>{link.title}</a>
                   )}

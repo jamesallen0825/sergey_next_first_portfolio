@@ -58,22 +58,22 @@ export const NAV_LINKS = [
   {
     id: "source-code",
     title: "Source Code",
-    link: "http://www.github.com/sanidhyy/3d-portfolio/",
+    link: "",
   },
 ] as const;
 
 // Services
 export const SERVICES = [
   {
-    title: "Web Developer",
+    title: "Frontend Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Backend Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Web Developer",
     icon: backend,
   },
   {
@@ -153,43 +153,33 @@ export const EXPERIENCES = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
+
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "Senior Full-Stack Developer",
+    company_name: "Web Peppers",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Sep 2022 - Oct 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed scalable and responsive web applications using Vue.js & Nuxt.js.",
+      "Designed and implemented authentication & user roles using Firebase & laravel.",
+      "Implemented headless CMS solutions(Sanify, Strapi) for content driven application",
+      "Improved site performance by 40% by optimizing API calls and Frontend rendering",
+      "Led Frontend architecture decisions, ensuring scalability and maintainability",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
+    title: "Senior Full-Stack Developer",
+    company_name: "inVerita",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Oct 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and maintained dynamic web applications using React, Vue and Next.js for high-traffic platforms.",
+      "Built and optimized RESTful & GraphQL APIs with Node.js & Laravel to ensure seamless backend performance",
+      "Integrated third-party APIs such as payment gateways, Google Map, and social logins",
+      "Optimized database queries, improving application performance by 35%",
+      "Built reusable UI compenents, improving development efficiency across projects",
     ],
   },
 ] as const;
@@ -198,26 +188,26 @@ export const EXPERIENCES = [
 export const TESTIMONIALS = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "Working with Sergey was seamless. They delivered a high-quality website that exceeded our expectations and significantly improved our online presence.",
     name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
+    designation: "",
+    company: "",
     image: user1,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "Sergey is a true professional. Their expertise in web development helped us launch a site that has seen a substantial increase in traffic and engagement.",
     name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+    designation: "",
+    company: "",
     image: user2,
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
+      "I was impressed by Sergey's attention to detail and ability to understand our unique needs. The final product was exactly what we envisioned.",
+    name: "Bella Hepburn",
+    designation: "",
+    company: "",
     image: user3,
   },
 ] as const;
@@ -225,9 +215,9 @@ export const TESTIMONIALS = [
 // Projects
 export const PROJECTS = [
   {
-    name: "Disney+ Clone",
+    name: "drinkag",
     description:
-      "Disney+ is one of the biggest streaming platforms used by millions of people world-wide and allows us to stream high quality content in 4k and various other formats",
+      "This website is a sleek and modern e-commerce platform for AG1, designed to provide an intuitive shopping experience. I developed a responsive front-end using React and Next.js, ensuring seamless navigation and fast load times. The UI/UX is optimized with smooth animations and interactive elements to enhance user engagement. Integrated secure payment processing and a subscription model, allowing users to easily manage purchases. The backend is powered by a headless CMS and API-driven architecture, ensuring scalability and flexibility for future updates.",
     tags: [
       {
         name: "react",
@@ -243,13 +233,13 @@ export const PROJECTS = [
       },
     ],
     image: project1,
-    source_code_link: "https://github.com/sanidhyy/disney-clone",
-    live_site_link: "https://clonedisneyplus.web.app/",
+    source_code_link: "",
+    live_site_link: "",
   },
   {
-    name: "Golds Gym",
+    name: "garitransfer",
     description:
-      "Web application that enables users to search for fitness exercises, effective personalized positions, and recommends new exercises based on their personal preferences.",
+      "This website is a sleek and modern e-commerce platform for AG1, designed to provide an intuitive shopping experience. I developed a responsive front-end using React and Next.js, ensuring seamless navigation and fast load times. The UI/UX is optimized with smooth animations and interactive elements to enhance user engagement. Integrated secure payment processing and a subscription model, allowing users to easily manage purchases. The backend is powered by a headless CMS and API-driven architecture, ensuring scalability and flexibility for future updates.",
     tags: [
       {
         name: "react",
@@ -265,13 +255,13 @@ export const PROJECTS = [
       },
     ],
     image: project2,
-    source_code_link: "https://github.com/sanidhyy/fitness-app",
-    live_site_link: "https://fitness-gym-react.netlify.app/",
+    source_code_link: "",
+    live_site_link: "",
   },
   {
-    name: "Shoppy",
+    name: "Aspire Pink",
     description:
-      "The most personalised admin dashboard web application that allows enables users to choose customized themes and dark mode with different pages and variety of charts.",
+      "Aspire Pink is a stylish e-commerce store specializing in fashionable apparel, featuring a dreamy pastel aesthetic. The site offers a seamless shopping experience with easy navigation, secure checkout, and international currency support. With eye-catching visuals and a focus on trendy designs like the Grandeur Rosé™ Varsity Jacket, Aspire Pink caters to fashion-conscious customers looking for elegance and sophistication.With a user-friendly navigation menu, visitors can easily explore collections, shop for new arrivals, and read the latest fashion blogs.",
     tags: [
       {
         name: "react",
@@ -287,74 +277,8 @@ export const PROJECTS = [
       },
     ],
     image: project3,
-    source_code_link: "https://github.com/sanidhyy/admin-dashboard",
-    live_site_link: "https://shoppy-dashboard-react.netlify.app/",
-  },
-  {
-    name: "TikTok Clone",
-    description:
-      "A Next JS Web Application that enables users to upload videos of any length and size, create accounts and connect with other people just like any other social media.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "nodejs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwindcss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: project4,
-    source_code_link: "https://github.com/sanidhyy/tiktok-clone",
-    live_site_link: "https://tiktok-clone-react.vercel.app/",
-  },
-  {
-    name: "Cryptoverse",
-    description:
-      "Best Cryptocurrency web application that allows users to view price, market cap and daily change in realtime for almost every cryptocurrency in the world.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "rapidapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: project5,
-    source_code_link: "https://github.com/sanidhyy/crypto-app",
-    live_site_link: "https://reactjscryptoapp.netlify.app/",
-  },
-  {
-    name: "Travel Advisor",
-    description:
-      "Web application that enables you to view your nearby restaurants, hotels and attractions which can be sorted by ratings, price and much more.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "rapidapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "material-ui",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: project6,
-    source_code_link: "https://github.com/sanidhyy/travel-advisor",
-    live_site_link: "https://travel-advisor-reactjs.netlify.app/",
+    source_code_link: "",
+    live_site_link: "",
   },
 ] as const;
 
@@ -362,21 +286,21 @@ export const SOCIALS = [
   {
     name: "YouTube",
     icon: youtube,
-    link: "https://www.youtube.com/@OPGAMER.",
+    link: "",
   },
   {
     name: "Linkedin",
     icon: linkedin,
-    link: "https://www.linkedin.com/in/sanidhyy",
+    link: "",
   },
   {
     name: "Twitter",
     icon: twitter,
-    link: "https://twitter.com/TechnicalShubam",
+    link: "",
   },
   {
     name: "GitHub",
     icon: github,
-    link: "https://github.com/sanidhyy",
+    link: "",
   },
 ] as const;

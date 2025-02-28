@@ -52,13 +52,13 @@ export const About = () => {
         {/* Body */}
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className="empty-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+          className="empty-4 text-secondary text-[16px] max-w-3xl leading-[30px]"
         >
-          I'm a skilled website developer with experience in TypeScript and
-          Javascript, and expertise in frameworks like React, Node.js, and
-          Three.js. I'm a quick learner and collaborate closely with clients to
-          create efficient, scalable, and user-friendly solutions that solve
-          real-world problems. Let's work together to bring your ideas to life!
+          &nbsp;&nbsp;I'm a highly skilled Full-Stack developer with 5+ years of
+          experience in building dynamic, scalable and high-performance web
+          applications. I specialized in front-end and back-end development,
+          creating seamless user experiences with modern technologies like
+          React, Vue, Next.js, Laravel, and Node.js.
         </motion.p>
 
         {/* Service Card */}

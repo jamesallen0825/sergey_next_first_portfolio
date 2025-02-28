@@ -40,7 +40,7 @@ const ProjectCard = ({
         />
 
         {/* Live Site */}
-        <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
+        {/* <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
           <div
             onClick={() => window.open(live_site_link, "_blank", "noreferrer")}
             className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
@@ -53,10 +53,10 @@ const ProjectCard = ({
             />
           </div>
 
-          {/* Github */}
+      
           <div
             onClick={() =>
-              window.open(source_code_link, "_blank", "noreferrer")
+            window.open(source_code_link, "_blank", "noreferrer")
             }
             className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer ml-2"
           >
@@ -67,7 +67,7 @@ const ProjectCard = ({
               className="w-1/2 h-1/2 object-contain"
             />
           </div>
-        </div>
+        </div> */}
       </div>
 
       {/* Work Info */}
